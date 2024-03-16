@@ -1,0 +1,56 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: .1%;
+  font: 1rem  Arial, sans-serif;
+}
+h1{
+  font: bold 3em  Arial,sans-serif;
+}
+h2{
+  font: bold 2em  Arial,sans-serif;
+}
+h3{
+  font: bold 1.1em  Arial,sans-serif;
+}
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    /* place-items: center; */
+  }
+/* cvalore de las tarjetas dentro del componente stageroom */
+  /* .characters{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5%;
+  }
+  div > span{
+    display: flex;
+    flex-direction: row ;
+  } */
+  /* #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
