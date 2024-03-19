@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base:"https://rusticdeveloper.github.io/Rick_and_Morty_API/",
+  base:"/Rick_and_Morty_API/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
